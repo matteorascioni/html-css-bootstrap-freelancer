@@ -7,7 +7,7 @@ Body {
  .box {
      background: grey;
      height: 50px;
-     margin: 10px;
+   
      }
 
 /* HEADER */   
@@ -24,6 +24,12 @@ Body {
 }
 
 /* MAIN */
+/* Top main */
 .top-main {
-    
+    height: 850px;
+    background: #fff;
 }
+
+/* Mid main */
+.mid-main {
+ 
