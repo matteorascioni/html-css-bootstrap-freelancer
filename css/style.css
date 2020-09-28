@@ -7,7 +7,7 @@ Body {
  .box {
      background: grey;
      height: 50px;
-   
+     margin: 1px;   
      }
 
 /* HEADER */   
@@ -32,4 +32,4 @@ Body {
 
 /* Mid main */
 .mid-main {
- 
+}
