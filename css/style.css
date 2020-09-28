@@ -6,7 +6,7 @@ Body {
 /* UTILITIES */
  .box {
      background: grey;
-     height: 50px;
+     height: 40px;
      margin: 1px;   
      }
 
@@ -32,4 +32,69 @@ Body {
 
 /* Mid main */
 .mid-main {
+    height: 610px;
+    background: #1abc9c;
 }
+
+/* Low main */
+.low-main {
+    height: 990px;
+
+}
+
+/* MEDIA QUERY 0 --> 749PX (XS) */
+@media screen and (max-width: 749px) {
+    /* HEADER */
+    /* Top nav */
+    .top-nav {
+        padding-top: 10px;
+    }
+
+    .left-nav {
+        text-align: center;
+    }
+
+    .right-nav {
+        text-align: center;
+    }
+
+    /* Green header container */
+    .green-container-header {
+        padding-top: 40px;
+    }
+
+    .img-green-header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+     .logo-green-header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .info-header-green {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* MAIN */
+    /* Top main */
+    .top-main {
+        padding-top: 50px;
+    }
+    
+    .portfolio-logo {
+        text-align: center;
+        padding-top: 25px;
+        margin-bottom: 25px;
+        color: #2c3e50;
+    }
+
+    .img-top-main {
+        text-align: center;
+        margin-bottom:25px;
+        color: #2c3e50;
+    }
+
+}   
