@@ -3,21 +3,21 @@ Body {
     color: #fff;
 }
 
-/* UTILITIES */
- .box {
-     background: grey;
-     height: 40px;
-     margin: 1px;   
-     }
+/* HEADER */  
+/* Nav bar */
+.navbar-default {
+    background: #2c3e50;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
 
-/* HEADER */   
-/* NAV-BAR */
 .top-nav {
     max-width: 100%;
     background: #2c3e50;
 }
 
-/* HEADER GREEN CONTAINER */
+/* Header green container */
 .green-container-header {
     max-width: 100%;
     background: #1abc9c;
@@ -58,14 +58,25 @@ Body {
 /* MEDIA QUERY 0 --> 749PX (XS) */
 @media screen and (max-width: 749px) {
     /* HEADER */
+     /* Nav bar */
+     .navbar-default .navbar-brand {
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
     /* Top nav */
     .top-nav {
         padding-top: 20px;
         text-align: center;
-    }
-
-    .nav-bar-content {
-        margin-bottom: 25px;
     }
 
     /* Green header container */
@@ -76,6 +87,7 @@ Body {
 
     .green-container-header img {
         height: 250px;
+        margin-top: 50px;
         margin-bottom: 35px;
     }
 
@@ -94,7 +106,7 @@ Body {
     .green-container-header p {
         font-size: 17px;
         font-weight: 700;
-        margin-bottom: 35px;
+        margin-bottom: 45px;
     }
 
     /* MAIN */
@@ -122,6 +134,7 @@ Body {
     .top-main img  {
         max-width: 100%;
         margin-bottom: 15px;
+        border-radius: 10px;
         color: #2c3e50;
     }
 
@@ -220,14 +233,25 @@ Body {
 /* MEDIA QUERY 750PX --> 969PX TABLET */
 @media screen and (min-width: 750px) {
     /* HEADER */
-    /* Top nav */
-    .top-nav {
-        padding-top: 20px;
-        text-align: center;
+    /* Nav bar */
+    .navbar-default .navbar-brand {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 15px;
+        color: #fff;
+        text-transform: uppercase;
     }
 
-    .nav-bar-content {
-        margin-bottom: 25px;
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 15px 10px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #1abc9c;
     }
 
     /* Green header container */
@@ -238,6 +262,7 @@ Body {
 
     .green-container-header img {
         height: 250px;
+        margin-top: 100px;
         margin-bottom: 10px;
     }
 
@@ -256,7 +281,7 @@ Body {
     .green-container-header p {
         font-size: 17px;
         font-weight: 700;
-        margin-bottom: 35px;
+        margin-bottom: 45px;
     }
 
     /* MAIN */
@@ -284,6 +309,7 @@ Body {
     .top-main img  {
         max-width: 100%;
         margin-bottom: 15px;
+        border-radius: 10px;
         color: #2c3e50;
     }
 
@@ -387,14 +413,25 @@ Body {
 /* MEDIA QUERY 970PX --> 1169PX MIDDLE */
 @media screen and (min-width: 970px) {
     /* HEADER */
-    /* Top nav */
-    .top-nav {
-        padding-top: 20px;
-        text-align: center;
+    /* Nav bar */
+    .navbar {
+        margin-bottom: 25px;
     }
 
-    .nav-bar-content {
-        margin-bottom: 25px;
+    .navbar-default .navbar-brand {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 20px 15px;
+        text-transform: uppercase;
+        color: #fff;
     }
 
     /* Green header container */
@@ -405,6 +442,7 @@ Body {
 
     .green-container-header img {
         height: 280px;
+        margin-top: 150px;
         margin-bottom: 10px;
     }
 
@@ -423,7 +461,7 @@ Body {
     .green-container-header p {
         font-size: 17px;
         font-weight: 700;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 
     /* MAIN */
@@ -452,6 +490,8 @@ Body {
     .top-main img  {
         max-width: 100%;
         margin-bottom: 15px;
+        border-radius: 10px;
+        border-radius: 10px;
         color: #2c3e50;
     }
 
@@ -555,15 +595,26 @@ Body {
 /* MEDIA QUERY 1170PX (DESKTOP) */
 @media screen and (min-width: 1170px) {
     /* HEADER */
-    /* Top nav */
-    .top-nav {
-        padding-top: 20px;
-        text-align: center;
+    /* Nav bar */ 
+    .navbar-default .navbar-brand {
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
     }
 
-    .nav-bar-content {
-        margin-bottom: 25px;
+    .navbar-default .navbar-brand:hover {
+        color: #fff;
     }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 20px 15px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
 
     /* Green header container */
     .green-container-header {
@@ -619,6 +670,7 @@ Body {
     .top-main img  {
         max-width: 100%;
         margin-bottom: 15px;
+        border-radius: 10px;
         color: #2c3e50;
     }
 
@@ -646,10 +698,24 @@ Body {
     }
 
     .mid-main button {
+        width: 220px;
+        height: 60px;
         margin-bottom: 45px;
         border: 2px solid #fff;
         background: #1abc9c;
     }
+
+    .mid-main button i {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .mid-main button:hover {
+        background: #fff;
+        border: transparent;
+        color: rgba(24, 19, 19, 0.863);
+    }
+
 
     /* Low main */
     .low-main {
@@ -692,14 +758,14 @@ Body {
     .top-f-h2 {
         margin-bottom: 2px;
     }
-    
+
     .top-footer i  {
         width: 50px;
         height: 50px;
         font-size: 20px;
-        padding: 15px;
+        padding: 13px;
         margin-bottom: 20px;
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         border-radius: 100%;
         color: #fff;
     }
