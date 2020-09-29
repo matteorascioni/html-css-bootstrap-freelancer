@@ -1,5 +1,5 @@
 Body {
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #fff;
 }
 
@@ -162,9 +162,16 @@ Body {
     }
 
     .mid-main button {
-        margin-bottom: 25px;
+        width: 200px;
+        height: 70px;
+        margin-bottom: 45px;
         border: 2px solid #fff;
         background: #1abc9c;
+    }
+
+    .mid-main button i {
+        font-size: 20px;
+        margin: 0 10px;
     }
 
     /* Low main */
@@ -250,10 +257,6 @@ Body {
         color: #fff;
     }
 
-    .navbar-default .navbar-nav > li > a:hover {
-        color: #1abc9c;
-    }
-
     /* Green header container */
     .green-container-header {
         padding-top: 50px;
@@ -280,7 +283,7 @@ Body {
 
     .green-container-header p {
         font-size: 17px;
-        font-weight: 700;
+        font-weight: 300;
         margin-bottom: 45px;
     }
 
@@ -337,9 +340,16 @@ Body {
     }
 
     .mid-main button {
-        margin-bottom: 25px;
+        width: 200px;
+        height: 70px;
+        margin-bottom: 45px;
         border: 2px solid #fff;
         background: #1abc9c;
+    }
+
+    .mid-main button i {
+        font-size: 20px;
+        margin: 0 10px;
     }
 
     /* Low main */
@@ -426,12 +436,20 @@ Body {
         text-transform: uppercase;
     }
 
+    .navbar-default .navbar-brand:hover {
+        color: #fff;
+    }
+
     .navbar-default .navbar-nav > li > a {
         font-size: 14px;
         font-weight: 700;
         margin: 20px 15px;
         text-transform: uppercase;
         color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #1abc9c;
     }
 
     /* Green header container */
@@ -460,7 +478,7 @@ Body {
 
     .green-container-header p {
         font-size: 17px;
-        font-weight: 700;
+        font-weight: 300;
         margin-bottom: 80px;
     }
 
@@ -519,9 +537,22 @@ Body {
     }
 
     .mid-main button {
+        width: 200px;
+        height: 70px;
         margin-bottom: 45px;
         border: 2px solid #fff;
         background: #1abc9c;
+    }
+
+    .mid-main button i {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .mid-main button:hover {
+        background: #fff;
+        border: transparent;
+        color: rgba(24, 19, 19, 0.863);
     }
 
     /* Low main */
@@ -598,7 +629,7 @@ Body {
     /* Nav bar */ 
     .navbar-default .navbar-brand {
         font-size: 25px;
-        font-weight: 700;
+        font-weight: 900;
         color: #fff;
         text-transform: uppercase;
     }
@@ -608,28 +639,26 @@ Body {
     }
 
     .navbar-default .navbar-nav > li > a {
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 16px;
+        font-weight: 900;
         margin: 20px 15px;
         text-transform: uppercase;
         color: #fff;
     }
 
-
     /* Green header container */
     .green-container-header {
-        padding-top: 50px;
         text-align: center;
     }
 
     .green-container-header img {
-        height: 280px;
+        height: 250px;
         margin-bottom: 10px;
     }
 
     .green-container-header h1 {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 60px;
+        font-weight: 900;
         text-transform: uppercase;
         margin-bottom: 25px;
     }
@@ -640,9 +669,9 @@ Body {
     }
 
     .green-container-header p {
-        font-size: 17px;
-        font-weight: 700;
-        margin-bottom: 40px;
+        font-size: 25px;
+        font-weight: 400px;
+        margin-bottom: 100px;
     }
 
     /* MAIN */
@@ -653,10 +682,10 @@ Body {
     }
 
     .top-main h2 {
-        font-size: 30px;
+        font-size: 45px;
         font-weight: 700;
         text-transform: uppercase;
-        padding-top: 25px;
+        padding-top: 55px;
         margin-bottom: 20px;
         color: #2c3e50;
     }
@@ -664,12 +693,14 @@ Body {
     .top-main i {
         font-size: 35px;
         color: #2c3e50;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     .top-main img  {
+        width: 350px;
+        height: 250px;
         max-width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 60px;
         border-radius: 10px;
         color: #2c3e50;
     }
@@ -680,7 +711,7 @@ Body {
     }
 
     .mid-main h2 {
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 700;
         text-transform: uppercase;
         padding-top: 15px;
@@ -693,7 +724,8 @@ Body {
     }
 
     .mid-main p {
-        font-size: 18px;
+        text-align: left;
+        font-size: 24px;
         margin-bottom: 35px;
     }
 
@@ -716,18 +748,17 @@ Body {
         color: rgba(24, 19, 19, 0.863);
     }
 
-
     /* Low main */
     .low-main {
         text-align: center;
     }
 
     .low-main h2 {
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 700;
         text-transform: uppercase;
         padding-top: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         color: #2c3e50;
     }
 
@@ -748,11 +779,11 @@ Body {
     }
 
     .top-footer h2 {
-        font-size: 25px;
+        font-size: 32px;
         font-weight: 700;
         text-transform: uppercase;
-        padding-top: 20px;
-        margin-bottom: 20px;
+        padding-top: 60px;
+        margin-bottom: 60px;
     }
 
     .top-f-h2 {
@@ -770,9 +801,14 @@ Body {
         color: #fff;
     }
 
+    .top-footer i:hover {
+        background: #fff;
+        color: #2c3e50;
+    }
+
     .top-footer p {
         font-size: 20px;
-        margin-bottom: 25px;
+        margin-bottom: 110px;
     }
 
     .top-footer p a {
