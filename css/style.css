@@ -39,7 +39,20 @@ Body {
 /* Low main */
 .low-main {
     height: 990px;
+}
 
+/* FOOTER */
+/* Top footer */
+.top-footer {
+    height: 300px;
+    background: #2c3e50;
+}
+
+/* Low footer */
+.low-footer {
+    height: 100px;
+    text-align: center;
+    background: #1a252f;
 }
 
 /* MEDIA QUERY 0 --> 749PX (XS) */
@@ -47,34 +60,29 @@ Body {
     /* HEADER */
     /* Top nav */
     .top-nav {
-        padding-top: 10px;
-    }
-
-    .left-nav {
+        padding-top: 20px;
         text-align: center;
     }
 
-    .right-nav {
-        text-align: center;
+    .nav-bar-content {
+        margin-bottom: 25px;
     }
 
     /* Green header container */
     .green-container-header {
         padding-top: 40px;
+        text-align: center;
     }
 
     .img-green-header {
-        text-align: center;
         margin-bottom: 25px;
     }
 
      .logo-green-header {
-        text-align: center;
         margin-bottom: 25px;
     }
 
     .info-header-green {
-        text-align: center;
         margin-bottom: 25px;
     }
 
@@ -97,4 +105,55 @@ Body {
         color: #2c3e50;
     }
 
+    /* Mid main */
+    .mid-main  {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .logo-mid-main {
+        margin-bottom: 25px;
+    }
+
+    .mid-main-left {
+        margin-bottom: 25px;
+
+    }
+
+    .mid-main-right {
+        margin-bottom: 25px;
+    }
+
+    .mid-main-low-btn {
+        margin-bottom: 25px;
+    }
+
+    /* Low main */
+    .low-main {
+        padding-top: 30px;
+        text-align: center;
+        color: #2c3e50;
+    }
+
+    .low-main-content {
+        padding: 20px;
+    }
+
+    /* FOOTER */
+    /* Top footer */
+    .top-footer {
+        padding-top: 35px;
+        text-align: center;
+        background: #2c3e50;
+    }
+
+    .top-footer-content {
+        margin-bottom: 45px;
+    }
+
+    .low-footer {
+        padding-top: 40px;
+    }
 }   
+
+/* MEDIA QUERY 750PX -->  */
