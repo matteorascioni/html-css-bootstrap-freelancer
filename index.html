@@ -9,7 +9,7 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- Style Css -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -36,13 +36,13 @@
               <div class="collapse navbar-collapse" id="main-menu">
                 <ul class="nav navbar-nav navbar-right">
                   <li>
-                      <a href="">Portfolio</a>
+                        <a href="#">Portfolio</a>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                        <a href="#">About</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                        <a href="#">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -54,16 +54,16 @@
             <div class="row">
                 <div class="green-container-header col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <!-- Images green container -->
-                    <div class="col-xs-12 class-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <div>
                         <img src="./img/avatar.svg" alt="">
                     </div>
-                    <div class="col-xs-12 class-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <div>
                         <h1>start bootstrap</h1>
                     </div>
-                    <div class="col-xs-12 class-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <div class="star-divider">
                         <i class="fas fa-star"></i>
                     </div>
-                    <div class="col-xs-12 class-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <div>
                         <p>Graphic Artist - Web Designer - Illustration</p>
                     </div>
                 </div>
@@ -90,24 +90,36 @@
                     <!-- 6 box del main -->
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/cabin.png" alt="">
+                            <a href="#">
+                                <img src="./img/cabin.png" alt="">
+                            </a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/cake.png" alt="">
+                            <a href="#">
+                                <img src="./img/cake.png" alt="">
+                            </a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/circus.png" alt="">
+                            <a href="#">
+                                <img src="./img/circus.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/game.png" alt="">
+                            <a href="#">
+                                <img src="./img/game.png" alt="">
+                            </a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/safe.png" alt="">
+                            <a href="#">
+                                <img src="./img/safe.png" alt="">
+                            </a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="./img/submarine.png" alt="">
+                            <a href="#">
+                                <img src="./img/submarine.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -165,25 +177,24 @@
                     <form>
                         <div class="form-group">
                           <label for="Name">Name</label>
-                          <input type="Name" class="form-control" id="Name" 
+                          <input type="text" class="form-control" id="Name" 
                           placeholder="Name">
                         </div>
                         <div class="form-group">
                           <label for="exampleInputPassword1">Email Address</label>
-                          <input type="Email Address" class="form-control" id="Email Address" placeholder="Email Address">
+                          <input type="email" class="form-control" id="Email-Address" placeholder="Email Address">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Phone Number</label>
-                            <input type="Phone" class="form-control" id="Phone
-                            " placeholder="Phone Number">
+                            <input type="phone" class="form-control" id="Phone" placeholder="Phone Number">
                           </div>
                           <div class="form-group">
                             <label for="exampleInputPassword1">Message</label>
-                            <input type="Message" class="form-control" id="Message"
-                             placeholder="Message">
+                            <textarea class="form-control" id="Message"
+                             placeholder="Message"></textarea>
                           </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                      </form>
+                    </form>
+                            <button type="submit" class="btn-green">Send</button>
                 </div>
             </div>
         </section>
@@ -196,18 +207,37 @@
             <div class="top-footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-lg-offset-1">
-                        <h4 class="top-f-h2">Location</h4>
+                        <h4>Location</h4>
                         <p>2215 John Daniel Drive
                             Clark, MO 65243 </p>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Around the web</h4>    
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                            <i class="fas fa-basketball-ball"></i>
-                        </a>                    
+                        <h4>Around the web</h4> 
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>     
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-basketball-ball"></i>
+                                </a>        
+                            </li>
+                        </ul>                         
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                         <h4>About freelancer</h4>
@@ -219,7 +249,7 @@
     
          <!-- Low footer -->
         <div class="row">
-            <div class="low-footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="low-footer text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p>Copyright©YourWebsite2020</p>
             </div>
         </div>
